@@ -1,0 +1,1 @@
+# aplikacje-mobilne-sztandar_adam-185IC_A1
