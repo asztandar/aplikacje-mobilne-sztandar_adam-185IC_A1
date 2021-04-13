@@ -1,5 +1,5 @@
 import React from "react";
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { createStackNavigator } from 'react-navigation-stack';
 import Icon from "react-native-vector-icons/FontAwesome";
 
 import HomeScreen from "../page/Home_page.js"
@@ -7,7 +7,8 @@ import SpreadOperatorClass from "../page/Spread_operator.js";
 import RestParametersClass from "../page/Rest_parameters.js";
 import useStateClass from "../page/useState.js";
 
-export const bottomNavigation = createBottomTabNavigator(
+
+ export const bottomNavigation = createStackNavigator(
   {
     Home: {
       screen: HomeScreen,

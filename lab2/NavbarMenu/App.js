@@ -1,5 +1,6 @@
 import React from 'react';
-import bottomNavigation from "./components/navigation.js"
+import { createAppContainer } from 'react-navigation';
+import {bottomNavigation} from "./components/navigation.js"
 
 export default function App() {
   return (
