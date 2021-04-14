@@ -49,14 +49,14 @@ const styles = StyleSheet.create({
         paddingBottom: 20,
         paddingLeft: 0,
         backgroundColor: '#fefbc5',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     headerUseState:{
         backgroundColor: '#e9e983',
         fontSize: 20,
         color: '#887585',
-        alignItems: 'center',
-        justifyContent: 'center',
     },
     bold:{
         fontWeight:'bold'
