@@ -1,12 +1,20 @@
-import React, {useState} from 'react';  
-import {StyleSheet, Text, TextInput, Button, View,Image,Dimensions} from 'react-native';
+import React from 'react';  
+import {Text, View, Image} from 'react-native';
 
+import styles from "../style/stylesheet"
  const RestParametersScreen = props => {
    
  return (  
-        <View style={styles.container}>  
+        <View style={styles.containerRest}>  
        
-       <Text>Rest Parameters</Text>
+       <View style={styles.headerRest}>
+            <Text>
+            Zapis ten umożliwia zbieranie w jedną zmienną (będącą tablicą) wielu parametrów przekazywanych do funkcji:
+            </Text>
+       </View>
+       <View>
+           <Image source={require('../assets/1.png')} style={styles.image}/>
+       </View>
          
         </View>  
     );  
