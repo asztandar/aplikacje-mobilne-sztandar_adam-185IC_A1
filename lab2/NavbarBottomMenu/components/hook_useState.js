@@ -1,6 +1,7 @@
 import React, {useState} from 'react';  
 import {StyleSheet, Text, TextInput, Button, View,Image,Dimensions} from 'react-native';
 
+import styles from "../style/stylesheet"
  const Hook_useStateScreen = props => {
    
  return (  
@@ -13,16 +14,6 @@ import {StyleSheet, Text, TextInput, Button, View,Image,Dimensions} from 'react-
 }
 
 
-const styles = StyleSheet.create({  
-    container: {  
-        flex: 1,  
-         flexDirection: 'column',
-        justifyContent: 'center',  
-        alignItems: 'center'  
-    },  
-
-
-});  
 
 export default Hook_useStateScreen;
 
