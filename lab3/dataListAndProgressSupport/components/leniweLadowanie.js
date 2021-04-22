@@ -1,8 +1,8 @@
 import React, {Component, Suspense} from 'react';
 
-import { Text, View, Image } from "react-native";
+import { Text, View } from "react-native";
 
-const daneLeniwe = React.lazy(() => import("./daneLeniweLadowanie"));
+const DaneLeniwe = React.lazy(() => import("./daneLeniweLadowanie"));
 
 import styles from "../style/stylesheet";
 
@@ -12,10 +12,11 @@ export default class LeniweLadowanie extends Component {
       <View style={styles.containerLeniweLadowanie}>
         <View style={styles.headerLeniweLadowanie}>
           <Text>Leniwe ładowanie!</Text>
+          <Text>Korzystając z poradnika: https://pl.reactjs.org/docs/code-splitting.html</Text>
         </View>
-        <View>
-          <Suspense fallback={<Text>Ładowanie...</Text>}>
-            <daneLeniwe length="1000000" />
+        <View style={styles.wrapperLeniweLadowanie}>
+          <Suspense fallback={<Text>Ładowanie, proszę czekać...</Text>}>
+            <DaneLeniwe length="99555" />
           </Suspense>
         </View>
       </View>
@@ -23,23 +24,3 @@ export default class LeniweLadowanie extends Component {
   }
 }
 
-/*
-const LeniweLadowanie = (props) => {
-    
-  return (
-    <View style={styles.containerLeniweLadowanie}>
-      <View style={styles.headerLeniweLadowanie}>
-        <Text>Leniwe ładowanie!</Text>
-      </View>
-      <View>
-        <Suspense fallback={<Text>Ładowanie...</Text>}>
-          <daneLeniwe length="1000000" />
-        </Suspense>
-      </View>
-    </View>
-  );
-};
-
-export default LeniweLadowanie;
-
-*/

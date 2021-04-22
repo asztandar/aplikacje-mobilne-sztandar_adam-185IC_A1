@@ -82,6 +82,20 @@ const styles = StyleSheet.create({
         borderWidth:1,
         borderBottomWidth:0,
         marginTop:5,
+    },
+
+
+    //leniwe
+    containerLeniweLadowanie:{
+        backgroundColor:'#c6bcc7',
+        marginTop:30,
+
+    },
+    headerLeniweLadowanie:{
+
+    },
+    wrapperLeniweLadowanie:{
+        backgroundColor:'#b1a6e8'
     }
   });
 
