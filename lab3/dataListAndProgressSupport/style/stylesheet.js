@@ -1,63 +1,87 @@
 import React from 'react';
-import { StyleSheet, Dimensions  } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 const window = Dimensions.get('window');
 
+
 const styles = StyleSheet.create({
-    container: {
+    containerHome: {
         flex: 1,
         paddingTop: 50,
         paddingBottom: 20,
-        backgroundColor: '#43be8d',
+        backgroundColor: '#cbd8fe',
         flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        textAlign:'center',
       },
-      image:{
-        width: window.width,
-        resizeMode: 'contain'
-      },
-    headers:{
+    headerHome:{
+        borderStyle: 'solid',
+        borderWidth: 3,
+        borderColor: '#494949',
+        borderRadius: 20,
+        fontWeight: 'bold',
+        padding: 5,
+
+    },
+    boldText:{
+        fontWeight: 'bold',
+    },
+
+    //sortowanie
+    containerSortowanie:{
+        display: 'flex',
+        flex:1,
+        flexDirection:'column',
+        backgroundColor: '#d0d9d1',
+
+    },
+    headerSortowanie:{
+        textAlign:'center',
+        marginTop: 20,
+        paddingTop: 10,
+        paddingBottom: 4,
+        borderBottomWidth: 4,
+    },
+    buttonWrapper:{
         paddingLeft: 5,
         paddingRight: 5,
+        flexDirection:'row',
+        justifyContent: 'space-around',
+        flexGrow: 5,
+        width: 300,
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        marginTop:10,
+        
+    },
+    marginRgiht:{
+        marginRight: 5,
+        backgroundColor: '#000'
     },
 
-    colorHeader1:{
-        backgroundColor: '#e8fecd'
+    buttonSortowanie:{
+        marginVertical: 5,
     },
+    numbersWrapper:{
+        borderWidth:2,
+        flexDirection: 'row',
+        borderTopWidth: 0,
+        borderBottomWidth:0,
 
-    //rest
+        height: window.height - 170,
 
-    containerSortowanie:{
-        flex: 1,
-        paddingTop: 50,
-        paddingRight: 0,
-        paddingBottom: 20,
-        paddingLeft: 0,
-        backgroundColor: '#aaa8f2',
-        flexDirection: 'column'
     },
-    headerRest:{
-        backgroundColor: '#b4f2f3',
-        fontSize: 10,
+    centered:{
+        textAlign:'center',
     },
-
-    //useState
-
-    containerLeniweLadowanie:{
-        flex: 1,
-        paddingTop: 50,
-        paddingRight: 0,
-        paddingBottom: 20,
-        paddingLeft: 0,
-        backgroundColor: '#fefbc5',
-        flexDirection: 'column',
-    },
-    headerUseState:{
-        backgroundColor: '#e9e983',
-        fontSize: 20,
-        color: '#887585',
-    },
-    bold:{
-        fontWeight:'bold'
+    numbersRandom:{
+        
+        width: '50%',
+        borderTopWidth: 0,
+        borderWidth:1,
+        borderBottomWidth:0,
+        marginTop:5,
     }
   });
 

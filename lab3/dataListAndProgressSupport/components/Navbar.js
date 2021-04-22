@@ -54,33 +54,8 @@ const TabBottomNavigator = createMaterialBottomTabNavigator(
         ),
       },
     },
-
-    SpreadOperator: {
-      screen: SpreadOperatorScreen,
-      navigationOptions: {
-        tabBarLabel: "Spread operator",
-        tabBarIcon: ({ tintColor }) => (
-          <View>
-            <Icon
-              style={[{ color: tintColor }]}
-              size={26}
-              name={"ios-settings"}
-            />
-          </View>
-        ),
-      },
-    },
-  },
-
-  {
-    initialRouteName: "Home",
-    activeColor: "#f0edf6",
-    inactiveColor: "#226557",
-
-    barStyle: {
-      backgroundColor: "#3fc750",
-    },
   }
+    
 );
 
 export default createAppContainer(TabBottomNavigator);
