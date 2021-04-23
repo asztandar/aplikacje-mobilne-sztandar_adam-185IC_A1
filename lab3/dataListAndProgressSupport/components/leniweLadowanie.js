@@ -16,7 +16,7 @@ export default class LeniweLadowanie extends Component {
         </View>
         <View style={styles.wrapperLeniweLadowanie}>
           <Suspense fallback={<Text>Ładowanie, proszę czekać...</Text>}>
-            <DaneLeniwe length="99555" />
+            <DaneLeniwe length="99755" />
           </Suspense>
         </View>
       </View>

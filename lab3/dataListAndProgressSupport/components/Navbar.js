@@ -7,7 +7,7 @@ import Icon from "react-native-vector-icons/Ionicons";
 import HomeScreen from "./Home.js";
 import Sortowanie from "./sortowanie";
 import LeniweLadowanie from "./leniweLadowanie.js";
-import SpreadOperatorScreen from "./spread_operator.js";
+import StepProgress from "./stepProgress";
 
 const TabBottomNavigator = createMaterialBottomTabNavigator(
   {
@@ -43,6 +43,21 @@ const TabBottomNavigator = createMaterialBottomTabNavigator(
       screen: LeniweLadowanie,
       navigationOptions: {
         tabBarLabel: "Lazy loading",
+        tabBarIcon: ({ tintColor }) => (
+          <View>
+            <Icon
+              style={[{ color: tintColor }]}
+              size={26}
+              name={"ios-settings"}
+            />
+          </View>
+        ),
+      },
+    },
+    StepProgressBar: {
+      screen: StepProgress,
+      navigationOptions: {
+        tabBarLabel: "Step progress",
         tabBarIcon: ({ tintColor }) => (
           <View>
             <Icon

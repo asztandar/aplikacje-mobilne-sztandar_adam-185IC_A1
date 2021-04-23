@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     //leniwe
     containerLeniweLadowanie:{
         backgroundColor:'#c6bcc7',
-        marginTop:30,
+        paddingTop:30,
 
     },
     headerLeniweLadowanie:{
@@ -96,7 +96,27 @@ const styles = StyleSheet.create({
     },
     wrapperLeniweLadowanie:{
         backgroundColor:'#b1a6e8'
-    }
+    },
+
+    //
+    containerStep:{
+        flex:1,
+        backgroundColor: '#a6c6a4' ,
+        paddingTop: 30,
+        
+    },
+    headerStep:{
+        borderWidth: 2,
+        borderColor: '#cbd595',
+        backgroundColor: '#55a38e',
+        height: '90%',
+
+    },
+    wysrodkuj:{
+        
+        alignItems:'center',
+        justifyContent:'center',
+    },
   });
 
   export default styles;
