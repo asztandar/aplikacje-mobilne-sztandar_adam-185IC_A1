@@ -4,7 +4,7 @@ import { ProgressStep, ProgressSteps } from "react-native-progress-steps";
 import styles from "../style/stylesheet";
 const StepProgress = (props) => {
     const buttonTextStyle = {
-        color: '#'
+        color: '#71c864'
     };
   return (
     <View style={styles.containerStep}>
@@ -23,14 +23,14 @@ const StepProgress = (props) => {
             </ProgressStep>
             <ProgressStep label="Drugie" nextBtnTextStyle={buttonTextStyle} previousBtnTextStyle={buttonTextStyle}>
                 <View style={{ alignItems: 'center' }, styles.wysrodkuj}>
-                <Text>ActivityIndicator bez ustawień: </Text>
+                <Text>ActivityIndicator large: </Text>
                     <ActivityIndicator size="large" color="#c7a343" />
                 </View>
             </ProgressStep>
             <ProgressStep label="Trzecie" nextBtnTextStyle={buttonTextStyle} previousBtnTextStyle={buttonTextStyle}>
                 <View style={{ alignItems: 'center' }, styles.wysrodkuj}>
-                <Text>ActivityIndicator bez ustawień: </Text>
-                    <ActivityIndicator size="medium" color="#bc251d" />
+                <Text>ActivityIndicator size = 60: </Text>
+                    <ActivityIndicator size={60} color="#bc251d" />
                 </View>
             </ProgressStep>
         </ProgressSteps>
