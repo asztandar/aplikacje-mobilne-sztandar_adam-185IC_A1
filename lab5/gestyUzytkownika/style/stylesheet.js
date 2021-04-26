@@ -99,19 +99,6 @@ const styles = StyleSheet.create({
     },
 
     //
-    containerStep:{
-        flex:1,
-        backgroundColor: '#a6c6a4' ,
-        paddingTop: 30,
-        
-    },
-    headerStep:{
-        borderWidth: 2,
-        borderColor: '#cbd595',
-        backgroundColor: '#55a38e',
-        height: '90%',
-
-    },
     wysrodkuj:{
         
         alignItems:'center',
@@ -158,6 +145,57 @@ const styles = StyleSheet.create({
     },
     scrollview2:{
         marginBottom: 90,
+    },
+    containerTouch:{
+        //backgroundColor:'#c4b4c7',
+        flexDirection: 'column',
+        
+    },
+    headerTouch:{
+        paddingTop:50,
+        backgroundColor: '#3d3593',
+
+    },
+    whiteColor:{
+        color: 'white',
+        textAlign: 'center',
+        fontSize: 20,
+    },
+    touchableWrapper:{
+        width: 400,
+        height: 300,
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        marginTop: 30,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    touchableOpacityButton:{
+        backgroundColor: '#1fad59',
+        borderWidth: 1,
+        borderRadius: 50,
+        width: 400,
+        height: 150,
+    },
+    touchableOpacityText:{
+        textAlign: 'center',
+        fontSize: 40,
+        color: '#41bfd4',
+
+    },
+    touchableHighlightButton:{
+        backgroundColor: '#41bfd4',
+        borderWidth: 1,
+        borderRadius: 50,
+        width: 400,
+        height: 150,
+        paddingTop:33,
+    },
+    touchableHighlightText:{
+        textAlign: 'center',
+        fontSize: 40,
+        color: 'white',
+
     }
     
   });

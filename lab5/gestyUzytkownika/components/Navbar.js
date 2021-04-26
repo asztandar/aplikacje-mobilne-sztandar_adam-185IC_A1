@@ -7,7 +7,7 @@ import Icon from "react-native-vector-icons/Ionicons";
 import HomeScreen from "./Home.js";
 import Scroll1 from "./scroll1";
 import Scroll2 from "./scroll2.js";
-import StepProgress from "./stepProgress";
+import Touchable from "./touchable";
 
 const TabBottomNavigator = createMaterialBottomTabNavigator(
   {
@@ -54,10 +54,10 @@ const TabBottomNavigator = createMaterialBottomTabNavigator(
         ),
       },
     },
-    StepProgressBar: {
-      screen: StepProgress,
+    TouchAb: {
+      screen: Touchable,
       navigationOptions: {
-        tabBarLabel: "Step progress",
+        tabBarLabel: "Touchable",
         tabBarIcon: ({ tintColor }) => (
           <View>
             <Icon
