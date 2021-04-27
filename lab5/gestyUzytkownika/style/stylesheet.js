@@ -196,7 +196,24 @@ const styles = StyleSheet.create({
         fontSize: 40,
         color: 'white',
 
-    }
+    },
+    containerSwipe: {
+        flex: 1,
+        alignItems: "stretch"
+        },
+        headerSwipe: {
+        textAlign: "center",
+        fontSize: 20,
+        fontWeight: "bold",
+        backgroundColor: "black",
+        color: "#05db6a"
+        },
+        item: {
+        padding: 15,
+        borderBottomWidth: 1,
+        borderBottomColor: "#F3F3F3"
+        }
+        
     
   });
 

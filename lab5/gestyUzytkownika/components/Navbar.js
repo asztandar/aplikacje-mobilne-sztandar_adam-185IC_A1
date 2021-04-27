@@ -8,6 +8,7 @@ import HomeScreen from "./Home.js";
 import Scroll1 from "./scroll1";
 import Scroll2 from "./scroll2.js";
 import Touchable from "./touchable";
+import Swipe from "./swipe";
 
 const TabBottomNavigator = createMaterialBottomTabNavigator(
   {
@@ -58,6 +59,21 @@ const TabBottomNavigator = createMaterialBottomTabNavigator(
       screen: Touchable,
       navigationOptions: {
         tabBarLabel: "Touchable",
+        tabBarIcon: ({ tintColor }) => (
+          <View>
+            <Icon
+              style={[{ color: tintColor }]}
+              size={26}
+              name={"ios-settings"}
+            />
+          </View>
+        ),
+      },
+    },
+    TODO: {
+      screen: Swipe,
+      navigationOptions: {
+        tabBarLabel: "TODO",
         tabBarIcon: ({ tintColor }) => (
           <View>
             <Icon
