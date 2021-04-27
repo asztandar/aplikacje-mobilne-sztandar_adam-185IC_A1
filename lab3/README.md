@@ -1,4 +1,4 @@
-# Lab2 - responsywne layouty + nawigacja
+# Lab3
 
 
 ## Wykorzystane technologie:
