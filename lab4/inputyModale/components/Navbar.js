@@ -9,7 +9,7 @@ import TextInputy from "./textinputy.js";
 import SelectExample from "./selectExample.js";
 import Switcher from "./switcher.js";
 import PickerDataTime from "./pickerDataTime.js"
-import Toast from "./toast.js";
+import ToastButton from "./toast.js";
 
 const TabBottomNavigator = createMaterialBottomTabNavigator(
   {
@@ -90,7 +90,7 @@ const TabBottomNavigator = createMaterialBottomTabNavigator(
     },
 
     Toas: {
-      screen: Toast,
+      screen: ToastButton,
       navigationOptions: {
         tabBarLabel: "Toast",
         tabBarIcon: ({ tintColor }) => (

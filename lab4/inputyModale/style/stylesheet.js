@@ -84,6 +84,41 @@ const styles = StyleSheet.create({
         borderColor: 'green',
         marginTop: 5,
     },
+    switchContent:{
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        marginTop: 40,
+
+    },
+
+
+    viewModalContent: {
+        flex: 1,
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: 22
+      },
+      modalView: {
+        margin: 20,
+        backgroundColor: "blue",
+        padding: 35,
+        alignItems: "center",
+        
+      },
+      button: {
+        padding: 10,
+        elevation: 2
+      },
+      modalText: {
+        marginBottom: 15,
+        textAlign: "center"
+      },
+      toCenter:{
+        justifyContent:"center",
+        alignItems: 'center',
+        marginTop: 'auto',
+        marginBottom: 'auto'
+      },
 
   });
 
