@@ -1,4 +1,4 @@
-import React, {Component, useEffect, useState} from 'react';
+import React, { useEffect, useState} from 'react';
 import {Button, Modal,ToastAndroid, Text, View } from 'react-native';
 import styles from '../style/stylesheet'
 
