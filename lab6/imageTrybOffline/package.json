@@ -8,6 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.4",
     "@react-native-community/art": "react-native-community/art",
     "@react-native-community/netinfo": "^6.0.0",
     "@react-native-community/slider": "^3.0.3",

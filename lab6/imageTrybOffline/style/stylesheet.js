@@ -59,6 +59,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 90,
   },
+  asyncStorContainer:{
+    paddingTop: 30,
+  },
 });
 
 export default styles;
