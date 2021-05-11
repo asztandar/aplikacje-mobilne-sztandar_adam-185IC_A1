@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Button,
-  ScrollView,
-  Text,
-  TextInput,
-  View,
-  Switch,
-} from "react-native";
+import {Text,View,Switch,} from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import Slider from "@react-native-community/slider";
 import styles from "../style/stylesheet";
