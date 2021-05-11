@@ -50,7 +50,7 @@ export default class lazyRender extends React.Component {
           </View>
 
           <View>
-            <Text>FontAwesome:</Text>
+            <Text>Fontisto:</Text>
             <View style={styles.icons}>
               <Fontisto style={{marginLeft: 4}} name="island" size={30} color="#900" />
               <Fontisto style={{marginLeft: 4}} name="taxi" size={30} color="#900" />
@@ -70,7 +70,7 @@ export default class lazyRender extends React.Component {
           </View>
 
           <View>
-            <Text>FontAwesome:</Text>
+            <Text>EvilIcons:</Text>
             <View style={styles.icons}>
               <EvilIcons style={{marginLeft: 4}} name="archive" size={30} color="#900" />
               <EvilIcons style={{marginLeft: 4}} name="chart" size={30} color="#900" />
@@ -90,7 +90,7 @@ export default class lazyRender extends React.Component {
           </View>
 
           <View>
-            <Text>FontAwesome:</Text>
+            <Text>Feather:</Text>
             <View style={styles.icons}>
               <Feather style={{marginLeft: 4}} name="box" size={30} color="#900" />
               <Feather style={{marginLeft: 4}} name="calendar" size={30} color="#900" />

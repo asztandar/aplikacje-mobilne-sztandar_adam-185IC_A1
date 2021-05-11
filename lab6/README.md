@@ -125,6 +125,8 @@ handleSlider ustawia stan po zmianie wartości slidera.
 
 ![](md_img/5.png)  
 ![](md_img/6.png)  
+##UWAGA: 
+zapomniałem zamienić w ```<TEXT>``` nagłówki ikon. W kodzie się zgadza
 
 ```JS
 import React from "react";
