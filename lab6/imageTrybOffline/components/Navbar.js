@@ -7,7 +7,8 @@ import Icon from "react-native-vector-icons/Ionicons";
 import HomeScreen from "./Home.js";
 import LoadingImage from "./loadingImage";
 import ImageSlider from "./sliderImage.js";
-import SpreadOperatorScreen from "./spread_operator.js";
+import lazyRender from "./renderIcon.js";
+import netInfo from "./netInfo.js"
 
 const TabBottomNavigator = createMaterialBottomTabNavigator(
   {
@@ -55,10 +56,26 @@ const TabBottomNavigator = createMaterialBottomTabNavigator(
       },
     },
 
-    SpreadOperator: {
-      screen: SpreadOperatorScreen,
+    lazyRenders: {
+      screen: lazyRender,
       navigationOptions: {
-        tabBarLabel: "Spread operator",
+        tabBarLabel: "Lazy & render",
+        tabBarIcon: ({ tintColor }) => (
+          <View>
+            <Icon
+              style={[{ color: tintColor }]}
+              size={26}
+              name={"ios-settings"}
+            />
+          </View>
+        ),
+      },
+    },
+
+    netinfo: {
+      screen: netInfo,
+      navigationOptions: {
+        tabBarLabel: "net info",
         tabBarIcon: ({ tintColor }) => (
           <View>
             <Icon

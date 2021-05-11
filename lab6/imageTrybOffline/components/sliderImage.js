@@ -1,10 +1,9 @@
 import React from "react";
-import { Text, View, Image, Dimensions } from "react-native";
+import { Text, View, Image } from "react-native";
 import Slider from "@react-native-community/slider";
 
-import styles, {imageSliderSize} from "../style/stylesheet";
+import styles from "../style/stylesheet";
 
-const window = Dimensions.get("window");
 
 export default class ImageSlider extends React.Component {
   constructor(props) {

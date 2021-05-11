@@ -42,7 +42,23 @@ const styles = StyleSheet.create({
     width: wielkośćObrazka,
     height: wielkośćObrazka,
     resizeMode: "contain",
-  }
+  },
+  lazyRenderContainer:{
+    paddingTop: 30,
+  },
+  icons:{
+      flexDirection: 'row',
+  },
+  netInfoContainer:{
+    paddingTop: 30,
+    flex: 1,
+  },
+  netInfoContent:{
+    borderWidth:2,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: 90,
+  },
 });
 
 export default styles;
